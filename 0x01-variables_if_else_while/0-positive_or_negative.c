@@ -12,11 +12,11 @@ int main(void)
 int n;
 $rand(time(0));
 n = rand() - RAND_MAX / 2;
-IF (N==0)
+IF (N == 0)
 {
 printf("%i is zero\n", n);
 }
-else if (n<0)
+else if (n < 0)
 {
 printf("%i is negative/n", n);
 }
