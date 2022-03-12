@@ -1,9 +1,9 @@
 
 #include <stdio.h>
 #include <time.h>
-#include <stdio.h>
+#include <stdlib.h>
 /**
- * main - Entry point
+ * main - finding out if nunber is positive or negative
  *
  * Return: Always 0 (success)
  */
