@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main - printd alphabets lower case 
- *followed by new line except q and c 
+ *main - printd alphabets lower case
+ *followed by new line except q and c
  *Return: Always 0
  */
 int main(void)
