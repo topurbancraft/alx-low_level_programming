@@ -14,12 +14,12 @@ int c = 0;
 while (c <= 99)
 {
 fd = (c / 10 + '0');
-ld = (c % 10 + '0')
+ld = (c % 10 + '0');
 if (fd < ld)
 {
 putchar(fd);
 putchar(ld);
-if (c , 89)
+ if (c < 89)
 {
 putchar(',');
 putchar(',');
