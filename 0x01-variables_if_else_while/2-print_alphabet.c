@@ -5,10 +5,10 @@
  *followed by a new line
  *Return: Always 0
  */
-int main(voil)
+int main(void)
 {
 char i;
-for (i = 'a'; i <= 'z'; i+=)
+for (i = 'a'; i <= 'z'; i++)
 {
 putchar(i);
 }
