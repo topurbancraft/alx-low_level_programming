@@ -19,10 +19,10 @@ if (fd < ld)
 {
 putchar(fd);
 putchar(ld);
- if (c < 89)
+if (c < 89)
 {
 putchar(',');
-putchar(',');
+putchar(' ');
 }
 }
 c++;
