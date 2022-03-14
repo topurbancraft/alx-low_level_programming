@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  *main - prints single digits od base !)
- *followed by a new line 
- *Return: Always zero 
+ *followed by a new line
+ *Return: Always zero
  */
 int main(void)
 {
