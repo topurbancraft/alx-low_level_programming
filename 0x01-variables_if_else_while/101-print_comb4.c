@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdio.h>
 /**
- * main - Entry point 
- * Description: print all possible combination of 3 digits.
- * Number must be seperated by commas and a space
- * Return: Always 0
- */
+* main - Entry point
+* Description: print all possible combination of 3 digits.
+* Number must be seperated by commas and a space
+* Return: Always 0
+*/
 int main(void)
 {
 int i, j, k, l;
@@ -27,5 +27,5 @@ putchar(35);
 }
 }
 putchar('\n');
-return (0)
+ return (0);
 }
