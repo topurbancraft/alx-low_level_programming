@@ -1,18 +1,15 @@
 #include "main.h"
-
 /**
- *_isupper - entry code
- *@c: contains value to be compared
- *Return: always 0
+ *_memset - sets a block of memmory to a value
+ *@s: pointer to be filled
+ *@b: vale to be set
+ *@n: bytes of memory
+ *Return: s
  */
-int _isupper(int c)
+char *_memset(char *s, char b, unsigned int n)
 {
-if (c >= 'A' && c <= 'Z')
-{
-return (1);
-}
-else
-{
-return (0);
-}
+unsigned int i;
+for (i = 0; i < n; i++)
+*(s + i) = b;
+return (s);
 }
